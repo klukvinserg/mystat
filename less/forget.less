@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+
+        .background {
+            background-image: url(../img/laptop.jpg);
+            background-size: cover;
+            background-position: center top;
+            height: 100%;
+            width: 100%;
+        
+            .background-inner {
+                background: rgba(55, 56, 59, 0.514);
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                .account-main {
+                    width: 400px;
+
+            .logo {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+
+                .form-inner {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+           }
+       }
+    
+    }
+}
+
+
+.form-inner input {
+    display: block;
+    width: 80%;
+    padding: 0 15px;
+    margin: 10px 0 15px;
+    border-width: 0;
+    line-height: 52px;
+    border-radius: 26px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    background-color: rgba(223, 228, 235, 0.5);
+    border: 1px solid transparent;
+    color: white;
+}
+
+.form-inner .input-color {
+    background-color: #1bd2c7;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all .4s ease;
+}
+
+
+.form-inner .input-color:hover {
+    border: 1px solid white;
+}
+
+::placeholder {
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #e8eaf0;
+    transition: all .4s ease;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+button:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:#e8eaf0;
+    transition: all .5s ease;
+}
+
+a:hover {
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .main .background .background-inner .account-main {
+       width: 100%;
+    }
+
+    img {
+        transform: scale(1.6);
+    }
+    
+}
